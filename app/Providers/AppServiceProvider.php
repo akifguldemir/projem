@@ -14,6 +14,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        config()->set("ayarlar",\App\Ayar::lists("value","name")->all());
     }
 
     /**
