@@ -104,7 +104,14 @@ return [
 
         'email'=>'E-mail',
             'password'=>'Şifre',
-                'name'=>'İsim'
+                'name'=>'İsim',
+        'baslik'=>"Başlık",
+        'author'=>"Yazar",
+        'aciklama'=>"Açıklama",
+        'facebook'=>"Facebook",
+        'twitter'=>"Twitter",
+        'github'=>"Github",
+
 
 
     ],
